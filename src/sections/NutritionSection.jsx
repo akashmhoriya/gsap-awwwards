@@ -33,6 +33,7 @@ const NutritionSection = () => {
       scrollTrigger: {
         trigger: ".nutrition-section",
         start: "top center",
+        // markers:true
       },
     });
     contentTl
