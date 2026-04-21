@@ -22,11 +22,13 @@ const TestimonialSection = () => {
 
     tl.to(".testimonials-section .first-title", {
       xPercent: 70,
+      yPercent:-40
     })
       .to(
         ".testimonials-section .sec-title",
         {
           xPercent: 25,
+          yPercent:-40
         },
         "<",
       )
@@ -34,6 +36,7 @@ const TestimonialSection = () => {
         ".testimonials-section .third-title",
         {
           xPercent: -50,
+          yPercent:-40
         },
         "<",
       );
@@ -66,7 +69,7 @@ const TestimonialSection = () => {
   };
 
   return (
-    <section className="testimonials-section mb-0 lg:mb-40">
+    <section className="testimonials-section">
       <div className="absolute size-full flex flex-col items-center pt-[5vw]">
         <h1 className="text-black first-title">What's</h1>
         <h1 className="text-light-brown sec-title">Everyone</h1>
