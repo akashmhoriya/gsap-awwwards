@@ -35,12 +35,12 @@ const FooterSection = () => {
           />
         )} */}
         <video
-            src="/videos/splash.mp4"
-            autoPlay
-            playsInline
-            muted
-            className="absolute top-0 object-contain mix-blend-lighten"
-          />
+          src="/videos/splash.mp4"
+          autoPlay
+          playsInline
+          muted
+          className="absolute top-0 object-contain mix-blend-lighten pointer-events-none"
+        />
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
           <div className="social-btn">
@@ -77,13 +77,13 @@ const FooterSection = () => {
               Updates, Events, and More!
             </p>
             <div className="flex justify-between items-center border-b border-[#D9D9D9] py-5 md:mt-10">
-              {/* The input field and arrow icon for newsletter signup. */}{" "}
+              {/* The input field and arrow icon for newsletter signup. */}
               {/* A
           border at the bottom for a clean, modern look. */}
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full placeholder:font-sans placeholder:text-[#999999]"
+                className="w-full bg-transparent text-white outline-none placeholder:text-[#999999]"
               />
               <img src="/images/arrow.svg" alt="arrow" />
             </div>
