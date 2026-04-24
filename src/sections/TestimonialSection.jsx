@@ -22,13 +22,13 @@ const TestimonialSection = () => {
 
     tl.to(".testimonials-section .first-title", {
       xPercent: 70,
-      yPercent:-40
+      yPercent: -40,
     })
       .to(
         ".testimonials-section .sec-title",
         {
           xPercent: 25,
-          yPercent:-40
+          yPercent: -40,
         },
         "<",
       )
@@ -36,7 +36,7 @@ const TestimonialSection = () => {
         ".testimonials-section .third-title",
         {
           xPercent: -50,
-          yPercent:-40
+          yPercent: -40,
         },
         "<",
       );

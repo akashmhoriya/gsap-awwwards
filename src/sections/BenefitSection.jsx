@@ -17,27 +17,31 @@ const BenefitSection = () => {
       },
     });
 
-    revealTl.to(".benefit-section .first-title", {
-      duration: 1,
-      opacity: 1,
-      clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-      ease:"circ.out"
-    }).to(".benefit-section .second-title", {
-      duration: 1,
-      opacity: 1,
-      clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-      ease:"circ.out"
-    }).to(".benefit-section .third-title", {
-      duration: 1,
-      opacity: 1,
-      clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-      ease:"circ.out"
-    }).to(".benefit-section .fourth-title", {
-      duration: 1,
-      opacity: 1,
-      clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-      ease:"circ.out"
-    })
+    revealTl
+      .to(".benefit-section .first-title", {
+        duration: 1,
+        opacity: 1,
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        ease: "circ.out",
+      })
+      .to(".benefit-section .second-title", {
+        duration: 1,
+        opacity: 1,
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        ease: "circ.out",
+      })
+      .to(".benefit-section .third-title", {
+        duration: 1,
+        opacity: 1,
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        ease: "circ.out",
+      })
+      .to(".benefit-section .fourth-title", {
+        duration: 1,
+        opacity: 1,
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        ease: "circ.out",
+      });
   });
   return (
     <section className="benefit-section">
@@ -86,7 +90,6 @@ const BenefitSection = () => {
 
       <div className="relative overlay-box">
         <VideoPinSection />
-
       </div>
     </section>
   );
