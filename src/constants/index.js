@@ -47,12 +47,14 @@ const cards = [
     img: "/images/p1.png",
     translation: "translate-y-[-5%]",
   },
+
   {
     src: "/videos/f2.mp4",
     rotation: "rotate-z-[4deg]",
     name: "Alexander",
     img: "/images/p2.png",
   },
+
   {
     src: "/videos/f3.mp4",
     rotation: "rotate-z-[-4deg]",
@@ -60,6 +62,7 @@ const cards = [
     img: "/images/p3.png",
     translation: "translate-y-[-5%]",
   },
+
   {
     src: "/videos/f4.mp4",
     rotation: "rotate-z-[4deg]",
@@ -67,12 +70,14 @@ const cards = [
     img: "/images/p4.png",
     translation: "translate-y-[5%]",
   },
+
   {
     src: "/videos/f5.mp4",
     rotation: "rotate-z-[-4deg]",
     name: "Chris",
     img: "/images/p5.png",
   },
+
   {
     src: "/videos/f6.mp4",
     rotation: "rotate-z-[4deg]",
@@ -80,6 +85,7 @@ const cards = [
     img: "/images/p6.png",
     translation: "translate-y-[5%]",
   },
+
   {
     src: "/videos/f7.mp4",
     rotation: "rotate-z-[-4deg]",
@@ -87,6 +93,7 @@ const cards = [
     img: "/images/p7.png",
     translation: "translate-y-[10%]",
   },
+  
 ];
 
 export { flavorlists, nutrientLists, cards };

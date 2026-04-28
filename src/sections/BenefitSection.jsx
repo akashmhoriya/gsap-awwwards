@@ -43,6 +43,7 @@ const BenefitSection = () => {
         ease: "circ.out",
       });
   });
+
   return (
     <section className="benefit-section">
       <div className="container mx-auto pt-20">
@@ -59,6 +60,7 @@ const BenefitSection = () => {
               className={"first-title"}
               borderColor={"#222123"}
             />
+
             <ClipPathTitle
               title={"Protein + Caffeine"}
               color={"#222123"}
@@ -66,6 +68,7 @@ const BenefitSection = () => {
               className={"second-title"}
               borderColor={"#222123"}
             />
+
             <ClipPathTitle
               title={"Infinitely recyclable"}
               color={"#faeade"}
@@ -73,6 +76,7 @@ const BenefitSection = () => {
               className={"third-title"}
               borderColor={"#222123"}
             />
+
             <ClipPathTitle
               title={"Lactose free"}
               color={"#2E2D2F"}
