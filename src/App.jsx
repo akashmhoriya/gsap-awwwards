@@ -19,6 +19,7 @@ const App = () => {
       effects: true,
     });
   });
+
   return (
     <main>
       <NavBar />
